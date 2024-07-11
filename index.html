@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="trial3.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <h1>Harry Joseph</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <nav class="hamburger-nav">
+        <h1>Harry Joseph</h1>
+        <div class="hamburger-container">
+            <div class="symbol" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links">
+                <div class="sub-links">    
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="section" id="portfolio">
+        <img class='profile-pic' src="./assets/profielpic.jpg" alt="">
+        <div class="introduction">
+            <p>Hello I'm</p>
+            <h1>Harry Joseph</h1>
+            <h4>Frontend Developer</h4>
+            <div class="details">
+                <a href="./assets/Untitled (1).png">Download CV</a>
+                <a href="#contact">Contact Info</a>
+            </div>
+            <div class="social">
+                <img class='logo'src="./assets/linkedin.png" alt="" onclick='location.href="https://www.linkedin.com/in/harry-joseph-a68568318/"'>
+                <img class='logo'src="./assets/github.png" alt="" onclick='location.href="https://github.com/Harry-Joseph9387"'>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="title">About</h1>
+        <div class="about-container section">
+            <img src="./assets/profielpic.jpg" class="profile-pic" alt="">
+            <div class="text-container section">
+                <div class="qualification">
+                    <img src="./assets/education.png" class="logo" alt="">
+                    <h4>Education</h4>
+                    <p>Completed Higher Secondary Education</p>
+                    <p>Pursuing AI Computer Science Btech</p>
+                </div>
+                <p class="intro">Myself,Harry Joseph,from Ernakulam,Kerala.<br>I currently undegoing  Computer Science Artificial Intelligence BTech course in Mar Baselios College of Engineering and Technology in Trivandrum,Kerala.<br>I have an intrest in making websites and always found joy in making it.</p>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" class="logo arrow" onclick="location.href='#experience'" alt="">
+    </section>
+    <section id="experience" class="section">
+        <h1 class="title">Experience</h1>
+        <div class="experience-container">
+            <h4>Frontend Development</h4>
+            <div class="skills">
+                <div class="skill">
+                    <img src="./assets/checkmark.png" class="logo" alt="">
+                    <div class="text">
+                        <h4>HTML</h4>
+                        <p>Basic</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./assets/checkmark.png" class="logo" alt="">
+                    <div class="text">
+                        <h4>CSS</h4>
+                        <p>Basic</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./assets/checkmark.png" class="logo" alt="">
+                    <div class="text">
+                        <h4>JavaScript</h4>
+                        <p>Basic</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./assets/checkmark.png" class="logo" alt="">
+                    <div class="text">
+                        <h4>SASS</h4>
+                        <p>Basic</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./assets/checkmark.png" class="logo" alt="">
+                    <div class="text">
+                        <h4>Mysql</h4>
+                        <p>Basic</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./assets/checkmark.png" class="logo" alt="">
+                    <div class="text">
+                        <h4>PostgreSQl</h4>
+                        <p>Basic</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" class="logo arrow" onclick="location.href='#projects'" alt="">
+
+    </section>
+    <section id="projects" class="section">
+        <h1 class="title">Projects</h1>
+        <div class="projects-main-container">
+            <div class="projects-sub-container">
+                <div class="project">
+                    <img src="./assets/Screenshot (14).png" class="project-image" alt="">
+                    <div class="project-text">
+                        <h1>Project One</h1>
+                        <div class="btn">
+                            <a href="https://github.com/Harry-Joseph9387/pricing-component-with-toggle-master">Github</a>
+                            <a href="https://pricing-component-with-toggle-master-roan-two.vercel.app/">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./assets/Screenshot (15).png" class="project-image" alt="">
+                    <div class="project-text">
+                        <h1>Project Two</h1>
+                        <div class="btn">
+                            <a href="https://github.com/Harry-Joseph9387/interactive-pricing-component-main">Github</a>
+                            <a href="https://interactive-pricing-component-main-brown.vercel.app/">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./assets/Screenshot (16).png" class="project-image" alt="">
+                    <div class="project-text">
+                        <h1>Project Three</h1>
+                        <div class="btn">
+                            <a href="https://github.com/Harry-Joseph9387/Ping-single-column-coming-soon-page">Github</a>
+                            <a href="https://ping-single-column-coming-soon-page-amber.vercel.app/">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" class="logo arrow" onclick="location.href='#contact'" alt="">
+    </section>
+    <section id="contact" class="section">
+        <h1 class="title">Contact Me</h1>
+        <div class="main-contact-container">    
+            <div class="contact-container">
+                <div class="btn">
+                    <img src="./assets/email.png" class="logo" alt="">
+                    <a href="mailto:harryjoseph9387@gmail.com">harryjoseph9387@gmail.com</a>
+                </div>
+                <div class="btn">
+                    <img src="./assets/linkedin.png" class="logo" alt="">
+                    <a href="https://www.linkedin.com/in/harry-joseph-a68568318/">LinkedIN</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav class="bottom-nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="trial2.js"></script>
+</body>
+</html>
